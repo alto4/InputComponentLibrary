@@ -1,0 +1,47 @@
+.input {
+    border: 1px solid #aaa;
+    border-radius: .2em;
+    font-size: inherit;
+    padding: .5em;
+    display: block;
+    margin: 1rem 0;
+    outline: none;
+}
+
+.input:hover,
+.input:focus {
+    border-color: #0af;
+    box-shadow: 0 0 5px 0 #0af;
+}
+
+.input.input-success {
+    border-color: #27ae60;
+}
+
+.input.input-success:hover,
+.input.input-success:focus {
+    border-color: #0f0;
+    box-shadow: 0 0 5px 0 #0f0;
+}
+
+.input.input-error {
+    border-color: #eb5757;
+}
+
+.input.input-error:hover,
+.input.input-error:focus {
+    border-color: #f00;
+    box-shadow: 0 0 5px 0 #f00;
+}
+
+.input.input-large {
+    font-size: 1.25rem;
+}
+
+.input.input-small {
+    font-size: .7rem;
+}
+
+.input:disable {
+    background-color: #eaeaea;
+}
